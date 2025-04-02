@@ -1,7 +1,7 @@
 import scala.io.Source
 
 def getExamplePage(): String = {
-  Source.fromURL("https://www.example.com").mkString
+  Source.fromURL("https://character.totalpartykill.ca/basic/json/").mkString
 }
 
 // Usage
